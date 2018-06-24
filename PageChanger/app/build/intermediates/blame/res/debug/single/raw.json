@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/res/merged/debug/raw/dragon.txt",
+        "source": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/src/main/res/raw/dragon.txt"
+    },
+    {
+        "merged": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/res/merged/debug/raw/cube.obj",
+        "source": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/src/main/res/raw/cube.obj"
+    },
+    {
+        "merged": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/res/merged/debug/raw/fragment_shader.glsl",
+        "source": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/src/main/res/raw/fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/res/merged/debug/raw/point_vertex_shader.glsl",
+        "source": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/src/main/res/raw/point_vertex_shader.glsl"
+    },
+    {
+        "merged": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/res/merged/debug/raw/asteroid200.obj",
+        "source": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/src/main/res/raw/asteroid200.obj"
+    },
+    {
+        "merged": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/res/merged/debug/raw/dolphins.obj",
+        "source": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/src/main/res/raw/dolphins.obj"
+    },
+    {
+        "merged": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/res/merged/debug/raw/teapot2.obj",
+        "source": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/src/main/res/raw/teapot2.obj"
+    },
+    {
+        "merged": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/res/merged/debug/raw/point_fragment_shader.glsl",
+        "source": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/src/main/res/raw/point_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/res/merged/debug/raw/vertex_shader.glsl",
+        "source": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/src/main/res/raw/vertex_shader.glsl"
+    }
+]

@@ -1,0 +1,76 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/_uiBoxTop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="top|left"
+        >
+
+        <Button
+            android:id="@+id/_eyeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="eye" />
+       <Button
+            android:id="@+id/_objectBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="all" />  
+       <Button
+            android:id="@+id/_lightBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="light" />
+
+        
+
+        
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/_uiBoxBottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|left"
+        android:background="@drawable/transparent70" >
+
+        <Button
+            android:id="@+id/_textureBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="texture" />
+
+        <Button
+            android:id="@+id/_albumBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="album" />
+
+        <Button
+            android:id="@+id/_cameraBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="camera" />
+        
+        <Button
+            android:id="@+id/_addBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="add" />
+        <Button
+            android:id="@+id/_removeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="remove" />
+
+    </LinearLayout>
+
+</FrameLayout>

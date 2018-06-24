@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/res/merged/debug/anim/motion_remove.xml",
+        "source": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/src/main/res/anim/motion_remove.xml"
+    },
+    {
+        "merged": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/res/merged/debug/anim/motion_up_in.xml",
+        "source": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/src/main/res/anim/motion_up_in.xml"
+    },
+    {
+        "merged": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/res/merged/debug/anim/motion_left_in.xml",
+        "source": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/src/main/res/anim/motion_left_in.xml"
+    },
+    {
+        "merged": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/res/merged/debug/anim/motion_init.xml",
+        "source": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/src/main/res/anim/motion_init.xml"
+    },
+    {
+        "merged": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/res/merged/debug/anim/motion_in.xml",
+        "source": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/src/main/res/anim/motion_in.xml"
+    },
+    {
+        "merged": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/res/merged/debug/anim/motion_up_out.xml",
+        "source": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/src/main/res/anim/motion_up_out.xml"
+    },
+    {
+        "merged": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/res/merged/debug/anim/motion_left_out.xml",
+        "source": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/src/main/res/anim/motion_left_out.xml"
+    },
+    {
+        "merged": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/res/merged/debug/anim/motion_right_in.xml",
+        "source": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/src/main/res/anim/motion_right_in.xml"
+    },
+    {
+        "merged": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/res/merged/debug/anim/motion_out.xml",
+        "source": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/src/main/res/anim/motion_out.xml"
+    },
+    {
+        "merged": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/res/merged/debug/anim/motion_right_out.xml",
+        "source": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/src/main/res/anim/motion_right_out.xml"
+    }
+]

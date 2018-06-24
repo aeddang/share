@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Magellan</string>
+
+    <string name="btn_ok">ok</string>
+    <string name="btn_no">no</string>
+
+    <string name="msg_retry_kor">데이터 불러오기에 실패했습니다. 다시 시도 하시겠습니까?.</string>
+    <string name="msg_app_out_kor">한번더 누르시면 자동 종료됩니다</string>
+    <string name="msg_no_data_kor">데이터가 없습니다.</string>
+    <string name="msg_server_err_kor">현재 서버 상태가 좋지 않습니다. 잠시후 다시 이용하세요.</string>
+    <string name="msg_network_err_kor">현재 네트워크 상태가 좋지 않습니다. 잠시후 다시 이용하세요.</string>
+
+    <string name="msg_retry_eng">data load fail. do retry again?</string>
+    <string name="msg_app_out_eng">exit</string>
+    <string name="msg_no_data_eng">no data</string>
+    <string name="msg_server_err_eng">server error. please retry again.</string>
+    <string name="msg_network_err_eng">network error. please retry again.</string>
+</resources>

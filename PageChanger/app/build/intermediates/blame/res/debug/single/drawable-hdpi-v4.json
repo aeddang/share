@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/transparent.png",
+        "source": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/src/main/res/drawable-hdpi/transparent.png"
+    },
+    {
+        "merged": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/texture.png",
+        "source": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/src/main/res/drawable-hdpi/texture.png"
+    },
+    {
+        "merged": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/transparent70.png",
+        "source": "/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/src/main/res/drawable-hdpi/transparent70.png"
+    }
+]

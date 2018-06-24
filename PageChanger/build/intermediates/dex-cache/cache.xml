@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="94ad9eec585a4f8b881693f35f47f087668cb6ab">
+        <dex dex="/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9c8a343c4575337374a74b920b41ac086303bd05/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kimjeongcheol/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_a1a8711d023e34e8aee0e2d81e0ae6603cd056d8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="6427a789561aefd5a1eed3f6ee36cb967d657f6a">
+        <dex dex="/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_18533ceffdce0e3d42b79fd8bbe67c3717a19c91/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/libs/modelloader.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="dd0e4a9ad31b36cecdb915bd3551ba28358f5963">
+        <dex dex="/Users/kimjeongcheol/Documents/ANDROID/PageChanger/app/build/intermediates/transforms/dex/debug/folders/1000/2/modelloader_eccdfddb9eb5d79cad78d0da32dfafdd40078564/classes.dex" />
+    </item>
+
+</items>
