@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_gravity="top|left"
+    tools:context="com.credit.korea.KoreaCredit.MainActivity"
+    android:background="#ffffff">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/_btn"
+        android:background="@drawable/sel_btn_bg1"
+        android:layout_gravity="top|left"
+
+
+        android:textColor="#666666"
+        android:text="test"
+        android:textSize="12dp"
+        android:layout_margin="1dp" />
+</FrameLayout>
+

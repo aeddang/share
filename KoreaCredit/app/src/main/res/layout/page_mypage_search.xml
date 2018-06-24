@@ -1,0 +1,276 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    tools:context="com.credit.korea.KoreaCredit.MainActivity"
+    android:background="#e5e5e5">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:id="@+id/_scrollView"
+        android:layout_gravity="top|left">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|left"
+            android:background="#e5e5e5">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:background="#22b4ed">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="13dp"
+                    android:id="@+id/_textTitle"
+                    android:layout_gravity="center"
+                    android:src="@drawable/searchoption_title"
+                    android:scaleType="fitCenter" />
+
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/_btnBack"
+                    android:layout_gravity="center_vertical|right"
+                    android:background="@drawable/btn_back"
+                    android:layout_marginRight="10dp"
+                    android:visibility="gone" />
+            </FrameLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|left"
+                android:layout_gravity="top|left"
+                android:layout_margin="10dp"
+                android:background="#ffffff"
+                android:padding="20dp">
+
+                <ImageView
+                    android:layout_width="58dp"
+                    android:layout_height="12dp"
+
+                    android:src="@drawable/searchoption_title0"
+                    android:layout_gravity="top|left"
+                    android:longClickable="true"
+                    android:scaleType="fitStart"
+                    android:layout_marginTop="10dp" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|left"
+
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/_stackStd">
+
+
+                </LinearLayout>
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="12dp"
+
+                    android:src="@drawable/searchoption_title1"
+                    android:layout_gravity="top|left"
+                    android:longClickable="true"
+                    android:scaleType="fitStart"
+                    android:layout_marginTop="15dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="12dp"
+
+                    android:src="@drawable/searchoption_text0"
+                    android:layout_gravity="top|left"
+                    android:longClickable="true"
+                    android:scaleType="fitStart"
+                    android:layout_marginTop="15dp" />
+                <LinearLayout
+                    android:orientation="vertical"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|left"
+
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/_stackKinds">
+
+
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="12dp"
+
+                    android:src="@drawable/searchoption_text1"
+                    android:layout_gravity="top|left"
+                    android:longClickable="true"
+                    android:scaleType="fitStart"
+                    android:layout_marginTop="15dp" />
+                <LinearLayout
+                    android:orientation="vertical"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|left"
+
+                    android:layout_marginTop="10dp"
+
+                    android:id="@+id/_stackCompanys">
+
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="12dp"
+
+                    android:src="@drawable/searchoption_text2"
+                    android:layout_gravity="top|left"
+                    android:longClickable="true"
+                    android:scaleType="fitStart"
+                    android:layout_marginTop="15dp" />
+                <LinearLayout
+                    android:orientation="vertical"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|left"
+
+                    android:layout_marginTop="10dp"
+                    android:weightSum="302"
+                    android:id="@+id/_stackNations">
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="12dp"
+
+                    android:src="@drawable/searchoption_text3"
+                    android:layout_gravity="top|left"
+                    android:longClickable="true"
+                    android:scaleType="fitStart"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/_titleAir" />
+                <LinearLayout
+                    android:orientation="vertical"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|left"
+
+                    android:layout_marginTop="10dp"
+
+                    android:id="@+id/_stackAirs">
+
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="top|left">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="12dp"
+                        android:src="@drawable/searchoption_title2"
+                        android:layout_gravity="top|left"
+                        android:longClickable="true"
+                        android:scaleType="fitStart"
+                        />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:src="@drawable/searchoption_text4"
+                        android:layout_gravity="top|left"
+                        android:longClickable="true"
+                        android:scaleType="fitStart"
+
+                        android:layout_marginTop="20dp" />
+
+                    <Button
+                        android:layout_width="46dp"
+                        android:layout_height="23dp"
+                        android:id="@+id/_btnOpen"
+                        android:layout_gravity="center_vertical|right"
+                        android:background="@drawable/sel_searchoption_btn_open" />
+                </FrameLayout>
+
+                <view
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    class="com.credit.korea.KoreaCredit.mypage.ListAddedModify"
+                    android:id="@+id/_listAddedModify"
+                    android:layout_gravity="top|left"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical" />
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/_closeBox"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:layout_width="21dp"
+                        android:layout_height="12dp"
+                        android:id="@+id/imageView13"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/searchoption_btn_close_txt"
+                        android:layout_gravity="top|left"
+                        android:layout_marginTop="3dp" />
+
+                    <Button
+                        android:layout_width="23dp"
+                        android:layout_height="23dp"
+                        android:id="@+id/_btnClose"
+                        android:background="@drawable/searchoption_btn_close"
+                        android:layout_gravity="right" />
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_gravity="left|bottom"
+                        android:background="#e5e5e5"></FrameLayout>
+                </FrameLayout>
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/_btnComplete"
+                    android:layout_gravity="top|left"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/btn_complete_txt1"
+                    android:padding="13dp"
+                    android:background="@drawable/btn_bg0"
+                    android:scaleType="fitCenter" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
+
+
+
+
+
+

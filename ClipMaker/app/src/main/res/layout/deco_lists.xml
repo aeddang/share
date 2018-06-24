@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="loading"
+        android:id="@+id/_infoTxt"
+        android:layout_gravity="center"
+        android:textColor="#5e5e5e"
+        android:textSize="12dp" />
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="lib.view.RackableGridView"
+        android:id="@+id/_listView"
+        android:layout_gravity="top|center_horizontal"
+        android:horizontalSpacing="0dp"
+        android:verticalSpacing="0dp"
+        android:gravity="top|center_horizontal"
+        android:stretchMode="none"
+        android:padding="0dp"
+        android:columnWidth="80dp"
+        android:numColumns="4"
+        android:listSelector="@drawable/sel_press" />
+</FrameLayout>

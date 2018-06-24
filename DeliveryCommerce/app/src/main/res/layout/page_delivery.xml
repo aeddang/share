@@ -1,0 +1,130 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    android:background="#ffffff"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|left"
+        android:layout_marginBottom="60dp"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="top|left"
+            android:background="#ff7e3e" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical" >
+
+                <FrameLayout
+                    android:layout_width="1dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="#eeeeee" >
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/_sortText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:text="정렬"
+                    android:textColor="#ffffff"
+                    android:textSize="12dp" />
+
+                <Spinner
+                    android:id="@+id/_selectSpinner"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_spiner"
+                    android:gravity="top|center_vertical"
+                    android:paddingLeft="100dp" />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/_menuBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:background="@drawable/transparent"
+                android:paddingLeft="10dp"
+                android:paddingRight="20dp"
+                android:src="@drawable/btn_slide" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+
+                <ImageButton
+                    android:id="@+id/_positionBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/transparent"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:src="@drawable/sel_position" />
+
+                <TextView
+                    android:id="@+id/_positionText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:text="위치"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/_positionSelectBtn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/btn_spiner" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <HorizontalScrollView
+            android:id="@+id/_menuBox"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ff7e3e"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/_menuLists"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left|center_vertical"
+                android:orientation="horizontal" >
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <lib.view.SlideBox
+            android:id="@+id/_slideBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </lib.view.SlideBox>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ironraft.bitboy.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/transparent70" />
+
+    <FrameLayout
+        android:id="@+id/_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|left">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_mid"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:id="@+id/_listBody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:background="@drawable/bg_gd_tiny"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_big">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:src="@drawable/icon_setup" />
+
+                <Switch
+                    android:id="@+id/_switchAutoLoad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_mid"
+                    android:checked="true"
+                    android:includeFontPadding="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_big"
+                    android:theme="@style/SetupSwitch" />
+
+                <Switch
+                    android:id="@+id/_switchPush"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_mid"
+                    android:includeFontPadding="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_big"
+                    android:theme="@style/SetupSwitch" />
+
+                <Switch
+                    android:id="@+id/_switchEng"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_mid"
+                    android:includeFontPadding="false"
+                    android:text="@string/text_set_eng"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_big"
+                    android:theme="@style/SetupSwitch" />
+
+                <Switch
+                    android:id="@+id/_switchKor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_mid"
+                    android:checked="false"
+                    android:includeFontPadding="false"
+                    android:text="@string/text_set_kor"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_big"
+                    android:theme="@style/SetupSwitch"
+                    android:thumbTint="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_big"
+                android:layout_marginRight="@dimen/margin_big"
+                android:layout_marginTop="@dimen/margin_big"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_tiny"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/_textVS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="1"
+                        android:includeFontPadding="false"
+                        android:text="version"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/font_big" />
+
+                    <TextView
+                        android:id="@+id/_textVSNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center_vertical"
+                        android:includeFontPadding="false"
+                        android:text="1.0"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/font_big" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="top|center_horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/btn_close" />
+
+                <Button
+                    android:id="@+id/_btnClose"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|top"
+                    android:background="@drawable/btn_transparent" />
+            </FrameLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</FrameLayout>

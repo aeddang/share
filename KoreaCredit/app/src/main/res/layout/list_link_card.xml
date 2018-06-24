@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="76dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|left"
+    tools:context="com.credit.korea.KoreaCredit.MainActivity">
+
+    <ImageView
+        android:layout_width="66dp"
+        android:layout_height="38dp"
+        android:id="@+id/_img"
+        android:background="#eee"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="66dp"
+        android:layout_height="match_parent"
+        android:text="New Text"
+        android:id="@+id/_textTitle"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:textSize="9dp"
+        android:textColor="#666" />
+
+    <Button
+        android:layout_width="66dp"
+        android:layout_height="20dp"
+        android:id="@+id/_btnMy"
+        android:background="@drawable/sel_btn_bg2"
+        android:layout_weight="1"
+        android:layout_gravity="top|center_horizontal"
+        android:text="보유카드"
+        android:textSize="8dp"
+        android:textColor="#666"
+        android:layout_marginTop="80dp" />
+</FrameLayout>
+

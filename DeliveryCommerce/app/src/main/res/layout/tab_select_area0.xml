@@ -1,0 +1,140 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    android:background="#ffffff"
+    tools:context=".MainActivity" >
+
+    <lib.view.RackableScrollView
+        android:id="@+id/_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+               
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="현재위치"
+                android:textColor="#5e5e5e"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_bg" >
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/icon_position1" />
+
+                <TextView
+                    android:id="@+id/_currentPosition"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:text="현재위치"
+                    android:textColor="#5e5e5e"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <TextView
+               
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:layout_marginTop="20dp"
+                android:text="주소검색"
+                android:textColor="#5e5e5e"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="top|left"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_bg" >
+
+                <EditText
+                    android:id="@+id/_searchText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/transparent"
+                    android:hint="예) 역삼,구로,신림"
+                    android:textColor="#5e5e5e"
+                    android:textSize="15dp" >
+
+                    <requestFocus />
+                </EditText>
+
+                <Button
+                    android:id="@+id/_searchBtn"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/btn_bg2"
+                    android:text="검색"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="* 읍, 면, 동, 리 명을 입력하고 검색하세요."
+                android:textColor="#ff7e3e"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/_infoTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:gravity="center"
+                android:text="검색내역"
+                android:textColor="#5e5e5e"
+                android:textSize="12dp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="top|left"
+                android:layout_marginTop="10dp"
+                android:background="#eeeeee" >
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/_lists"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical" >
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </lib.view.RackableScrollView>
+
+</FrameLayout>

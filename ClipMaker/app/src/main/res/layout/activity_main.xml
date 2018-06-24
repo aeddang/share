@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    tools:context="com.aeddang.clipmaker.MainActivity"
+    android:background="#000000">
+
+    <FrameLayout
+        android:id="@+id/_viewer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp" >
+
+    </FrameLayout>
+
+
+
+    <Button
+        android:id="@+id/_viewerDimed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/transparent70" />
+
+
+
+    <ImageView
+        android:id="@+id/_dimed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|left"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/transparent70" />
+
+
+    <ImageView
+        android:id="@+id/_loadingImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:layout_gravity="top|center_horizontal"
+        android:background="@drawable/loading"
+        android:layout_marginTop="200dp" />
+
+    <ImageView
+        android:id="@+id/_intro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffd800"
+        android:scaleType="fitCenter"
+        android:src="@drawable/intro" />
+
+</FrameLayout>
+

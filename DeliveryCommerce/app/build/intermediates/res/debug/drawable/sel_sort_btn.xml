@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:state_pressed="true" android:color="#7f4f3c"/>
+   <item android:state_selected="true" android:color="#7f4f3c"/>
+   <item android:color="#6d2306"/>
+</selector>
+<!-- From: file:/Users/imbc-design01/work/DeliveryCommerce/app/src/main/res/drawable/sel_sort_btn.xml -->

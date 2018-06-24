@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">배달커머스</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+   
+    
+    <string name="btn_ok">확인</string>
+    <string name="btn_no">취소</string>
+    <string name="msg_app_out">APP를 끝내시겠습니까?</string>
+
+
+    <string name="msg_androidvs_low">안드로이드버전 4.3 이상에서만 지원되는 기능입니다.</string>
+    <string name="msg_gologin_check">로그인후 이용가능합니다. 로그인 페이지로 이동하시겠습니까?</string>
+    
+    <string name="msg_search_location_error">지역정보를 가저올수 없습니다.</string>
+    <string name="msg_nosearch_keyword">검색어를 입력해주세요.</string>
+    <string name="msg_sotrlist_error">업종정보를 가저올수없습니다.</string>
+    
+    <string name="msg_call_check">통화료가 발생합니다. 전화거시겠습니까?</string>
+    
+    <string name="msg_favadd_success">츨겨찾기에 추가되었습니다.</string>
+    <string name="msg_favremove_success">즉겨찾기에서 제거되었습니다.</string>
+    
+    <string name="msg_favadd_fail">츨겨찾기에 추가에 실패했습니다. 다시시도해주세요.</string>
+    <string name="msg_favremove_fail">즉겨찾기에서 제거에 실패했습니다. 다시시도해주세요.</string>
+    
+    <string name="msg_join_success">가입 되었습니다.</string>
+    <string name="msg_join_id_wrong">사용할수 없는 id 입니다.</string> 
+     <string name="msg_join_nick_wrong">사용할수 없는 닉네임 입니다.</string> 
+     <string name="msg_join_fail">가입 실패햇습니다 다시 시도해두세요.</string>
+     
+      <string name="msg_search_nodata">검색결과가 없습니다.</string>
+      <string name="msg_search_success">검색 내역</string>
+    
+     <string name="msg_findpw_success">임시비밀번호를 문자로 발송했습니다.</string>
+    <string name="msg_findpw_fail">비밀 번호 찾기에 실패햇습니다 다시 시도해두세요.</string>
+    <string name="msg_findpw_noid">일치하는사용자를 찾을수 없습니다.</string>
+    <string name="msg_findpw_nophone">전화번호가 없음니다. 고객센터로 문의해주세요. </string>
+    
+    <string name="msg_login_success">로그인 되었습니다.</string>
+     <string name="msg_id_wrong">id가 없습니다.</string>
+     <string name="msg_password_wrong">잘못된 비밀번호 입니다.</string> 
+     <string name="msg_login_fail">로그인에 실패햇습니다 다시 시도해두세요.</string>
+     <string name="msg_logout_fail">로그아웃에 실패햇습니다 다시 시도해두세요.</string>
+     <string name="msg_findpw_sendpw_fail">일치하는사용자를 찾을수 없습니다.</string>
+     <string name="msg_join_member_fail">이미 가입된 회원입니다.</string>
+     
+    
+     <string name="msg_password_fail">입력하신 비밀번호가 일치하지 않습니다.</string>
+    
+     
+     <string name="msg_profile_noid">id를 입력 하십시오.</string>
+     <string name="msg_profile_nopw">비밀번호를 입력하십시오.</string>
+      <string name="msg_profile_noname">이름을 입력하십시오.</string>
+     <string name="msg_profile_nopwcheck">비밀번호 확인을 입력하십시오.</string>
+     <string name="msg_profile_id_check">id중복채크를 하십시오.</string>
+     <string name="msg_profile_nonicname">닉네임을 입력하십시오.</string>
+     <string name="msg_profile_nophone">휴대폰번호을 입력하십시오.</string>
+     <string name="msg_profile_nicname_check">닉네임 중복채크를 하십시오.</string>
+     <string name="msg_profile_nicname_fail">이미 사용중인 닉네임입니다.</string>
+     <string name="msg_profile_nicname_success">사용 가능한 닉네임입니다.</string>
+
+    <string name="msg_idel_bluetoothon">불루투스를 on으로 설정해야 사용가능합니다. on으로 설정하시겠습니까?</string>
+
+    <string name="msg_idel_order_permit">아이딜지역 선택시만 사용가능합니다.\n 현재위치 선택시는 사용할수 없습니다</string>
+    <string name="msg_select_addr_error">잘못된 주소선택입니다.</string>
+     
+     <string name="msg_profile_check_fail">중복체크에 실패했습니다. 다시 시도해 주세요.</string>
+     <string name="msg_profile_id_success">사용 가능한 id입니다.</string>
+     <string name="msg_profile_id_fail">이미 가입된 id입니다.</string>
+     
+     <string name="msg_profile_pw_check_fail">입력하신 비밀번호가 일치하지 않습니다.</string>
+     
+     <string name="msg_profile_pw_modify_nopw">새비밀번호를 입력하십시오.</string>
+     <string name="msg_profile_pw_modify_pw_fail">현재 비밀번호가 일치하지 않습니다.</string>
+     <string name="msg_profile_pw_modify_check_fail">새비밀번호와 비밀번호 확인이 일치하지 않습니다.</string>
+     
+      <string name="msg_profile_pw_modify_success">비밀번호가 변경되었습니다.</string>
+     <string name="msg_profile_pw_modify_fail">비밀번호변경이 실패하였습니다. 다시 시도해 주세요.</string>
+
+
+    <string name="msg_setup_idelon">아이딜을 ON으로 설정해야 사용가능합니다, 아이딜설정을 변경하시겠습니까?</string>
+
+    <string name="msg_no_data">검색 결과가 없습니다.</string>
+       <string name="msg_network_err">현재 네트워크 상태가 좋지 않습니다. 잠시후 다시 이용하세요.</string>
+</resources>

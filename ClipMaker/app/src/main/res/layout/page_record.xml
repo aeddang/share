@@ -1,0 +1,146 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    tools:context="com.aeddang.clipmaker.MainActivity" >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <FrameLayout
+            android:id="@+id/_viewer"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_gravity="top|center_horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/_filter"
+                android:layout_gravity="top|left"
+                android:scaleType="fitXY" />
+            <ImageButton
+                android:layout_width="31dp"
+                android:layout_height="31dp"
+                android:id="@+id/_settingBtn"
+                android:layout_gravity="top|right"
+                android:layout_marginRight="10dp"
+                android:clickable="false"
+
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_set"
+                android:scaleType="fitXY"
+                android:src="@drawable/sel_press" />
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp">
+
+                <ImageButton
+                    android:layout_width="26dp"
+                    android:layout_height="31dp"
+                    android:id="@+id/_changeFlashBtn"
+                    android:layout_gravity="top|center_horizontal"
+
+
+                    android:background="@drawable/sel_btn_flash"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/sel_press"
+                    />
+
+                <ImageButton
+                    android:layout_width="29dp"
+                    android:layout_height="29dp"
+                    android:id="@+id/_detectBtn"
+                    android:layout_gravity="top|center_horizontal"
+
+                    android:background="@drawable/sel_btn_detect"
+
+                    android:layout_marginTop="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/sel_press"/>
+
+                <ImageButton
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:id="@+id/_changeViewBtn"
+                    android:layout_gravity="top|center_horizontal"
+
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/btn_change_camera"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/sel_press"/>
+                </LinearLayout>
+
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <lib.view.SlideBox
+                android:id="@+id/_slideBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="top|left"
+                android:layout_margin="5dp">
+
+            </lib.view.SlideBox>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/_dimed"
+                android:background="@drawable/transparent70" />
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/_recordViewer"
+        android:layout_width="122dp"
+        android:layout_height="122dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/record_bg"
+        android:clickable="false">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/_recordProgress"
+            android:src="@drawable/record_progress_0000" />
+    </FrameLayout>
+    <ImageButton
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:id="@+id/_recordBtn"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="356dp"
+        android:background="@drawable/sel_record"
+        android:scaleType="fitXY"
+        android:src="@drawable/sel_press"/>
+
+    <FrameLayout
+        android:id="@+id/_cover"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="right|top"
+        android:background="#000000"></FrameLayout>
+
+
+</FrameLayout>
+

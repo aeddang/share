@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"
+    android:layout_gravity="top|left"
+    android:clickable="false"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:background="@drawable/transparent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="All"
+        android:textColor="@drawable/sel_sort_btn"
+        android:textSize="15dp" />
+
+</FrameLayout><!-- From: file:/Users/imbc-design01/work/DeliveryCommerce/app/src/main/res/layout/sort_list.xml -->

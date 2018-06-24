@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    android:background="@drawable/transparent70"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/_btnClose"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/transparent" />
+
+    <FrameLayout
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center" >
+
+        <ImageView
+            android:id="@+id/_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/transparent"
+            android:background="@drawable/noimg" />
+
+        <Button
+            android:id="@+id/_btnClose1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_close"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+
+    </FrameLayout>
+
+</FrameLayout><!-- From: file:/Users/imbc-design01/work/DeliveryCommerce/app/src/main/res/layout/popup_ad.xml -->

@@ -1,0 +1,124 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|left"
+    android:background="#ffffff"
+    android:clickable="false"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:id="@+id/_imgBox"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="top|left"
+            android:background="@drawable/noimg" >
+
+            <ImageView
+                android:id="@+id/_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/transparent"
+                android:background="#000000" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/_textBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/_title"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="top|left"
+                android:gravity="top|left"
+                android:padding="0dp"
+                android:text="TITLE"
+                android:textColor="#2f2f2f"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:lines="1" />
+
+            <TextView
+                android:id="@+id/_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="top|left"
+                android:maxLines="2"
+                android:padding="0dp"
+                android:text="1.7km"
+                android:textColor="#2f2f2f"
+                android:textSize="12dp"
+                android:layout_gravity="left|top"
+                android:layout_marginTop="5dp"
+                android:lines="1" />
+
+            <TextView
+                android:id="@+id/_dc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|top"
+                android:text="20%"
+                android:textColor="#fc391f"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:weightSum="2" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="150,0000원"
+                android:id="@+id/_price0"
+                android:layout_gravity="left|top"
+                android:layout_marginTop="40dp"
+                android:textColor="#999999"
+                android:textSize="10dp"
+                android:gravity="right" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="150,0000원"
+                android:id="@+id/_price1"
+                android:layout_gravity="left|top"
+                android:textColor="#000000"
+                android:textSize="12dp"
+                android:gravity="right"
+                android:layout_marginTop="5dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom|left"
+        android:background="#eeeeee" >
+
+    </FrameLayout>
+
+</FrameLayout>

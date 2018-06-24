@@ -1,0 +1,130 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    tools:context="com.credit.korea.KoreaCredit.MainActivity">
+
+
+    <FrameLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="top|left"
+        android:background="#21356e">
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/_btnHome"
+            android:layout_gravity="left|center_vertical"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/top_logo" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|right"
+
+            android:layout_marginRight="20dp">
+            <FrameLayout
+                android:layout_width="30dp"
+                android:layout_height="match_parent">
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="34dp"
+                    android:id="@+id/_btnJoin"
+                    android:layout_gravity="left|center_vertical"
+                    android:textColor="#ffffff"
+
+                    android:background="@drawable/sel_member_btn_join" />
+
+                <FrameLayout
+                    android:layout_width="30dp"
+                    android:layout_height="4dp"
+                    android:id="@+id/_btnJoinPoint"
+                    android:layout_gravity="left|bottom"
+                    android:background="#22b4ed"></FrameLayout>
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="top|left"
+                android:layout_marginLeft="20dp">
+                <Button
+                    android:layout_width="39dp"
+                    android:layout_height="34dp"
+                    android:id="@+id/_btnFindID"
+                    android:layout_gravity="left|center_vertical"
+                    android:textColor="#ffffff"
+
+                    android:background="@drawable/sel_member_btn_findid" />
+                <FrameLayout
+                    android:layout_width="39dp"
+                    android:layout_height="4dp"
+                    android:id="@+id/_btnFindIDPoint"
+                    android:layout_gravity="left|bottom"
+                    android:background="#22b4ed"></FrameLayout>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="top|left"
+                android:layout_marginLeft="20dp">
+                <Button
+                    android:layout_width="46dp"
+                    android:layout_height="34dp"
+                    android:id="@+id/_btnFindPW"
+                    android:layout_gravity="left|center_vertical"
+                    android:textColor="#ffffff"
+
+                    android:background="@drawable/sel_member_btn_findpw" />
+                <FrameLayout
+                    android:layout_width="46dp"
+                    android:layout_height="4dp"
+                    android:id="@+id/_btnFindPWPoint"
+                    android:layout_gravity="left|bottom"
+                    android:background="#22b4ed"></FrameLayout>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="top|left"
+                android:layout_marginLeft="20dp">
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="33dp"
+                    android:id="@+id/_btnLogin"
+                    android:layout_gravity="left|center_vertical"
+                    android:textColor="#ffffff"
+
+                    android:background="@drawable/sel_member_btn_login" />
+                <FrameLayout
+                    android:layout_width="30dp"
+                    android:layout_height="4dp"
+                    android:id="@+id/_btnLoginPoint"
+                    android:layout_gravity="left|bottom"
+                    android:background="#22b4ed"></FrameLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="lib.view.SlideBox"
+        android:id="@+id/_slideBox"
+        android:layout_gravity="top|left|center"
+        android:layout_marginTop="60dp" />
+
+
+</FrameLayout>
+

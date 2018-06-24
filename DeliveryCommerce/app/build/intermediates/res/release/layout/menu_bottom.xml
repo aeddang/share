@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_gravity="top|left"
+    android:background="#2d2d2c"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|left"
+        android:layout_margin="10dp"
+        android:weightSum="4" >
+
+        <ImageButton
+            android:id="@+id/_btn0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/transparent"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bt_btn0" />
+
+        <ImageButton
+            android:id="@+id/_btn1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/transparent"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bt_btn1" />
+        <ImageButton
+            android:id="@+id/_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/transparent"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bt_btn3" />
+        <ImageButton
+            android:id="@+id/_btn3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/transparent"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bt_btn2" />
+
+    </LinearLayout>
+
+</FrameLayout><!-- From: file:/Users/imbc-design01/work/DeliveryCommerce/app/src/main/res/layout/menu_bottom.xml -->

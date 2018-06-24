@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|left"
+    tools:context="com.credit.korea.KoreaCredit.MainActivity"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:gravity="top|left">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/_textTitle"
+        android:layout_gravity="top|left"
+        android:textColor="#666"
+        android:textSize="13dp" />
+</LinearLayout>
+

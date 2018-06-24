@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    android:background="#ffffff"
+    tools:context=".MainActivity" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="top|left"
+        android:background="#ff7e3e" >
+
+        <TextView
+            android:id="@+id/_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:gravity="center"
+            android:text="위치설정"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/_backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/transparent"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/top_icon" />
+
+        <ImageButton
+            android:id="@+id/_positionBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/transparent"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/icon_position" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp" >
+
+        <Button
+            android:id="@+id/_tab0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/sel_map_tab"
+            android:text="주소로설정"
+            android:textColor="@drawable/sel_map_txt" />
+
+        <Button
+            android:id="@+id/_tab1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/sel_map_tab"
+            android:text="지도로설정"
+            android:textColor="@drawable/sel_map_txt" />
+
+    </LinearLayout>
+
+    <lib.view.SlideBox
+        android:id="@+id/_slideBox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="100dp" >
+
+    </lib.view.SlideBox>
+
+</FrameLayout>

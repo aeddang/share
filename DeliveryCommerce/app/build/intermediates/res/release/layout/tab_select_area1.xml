@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    android:background="#ffffff"
+    tools:context=".MainActivity" >
+
+    <FrameLayout
+        android:id="@+id/_mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+    
+    <Button
+        android:id="@+id/_searchBtn"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_bg3"
+        android:text="여기로 위치 설정하기"
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
+
+</FrameLayout><!-- From: file:/Users/imbc-design01/work/DeliveryCommerce/app/src/main/res/layout/tab_select_area1.xml -->

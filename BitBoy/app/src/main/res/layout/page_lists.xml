@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ironraft.bitboy.MainActivity"
+    android:id="@+id/_body"
+    >
+
+
+    <TextView
+        android:id="@+id/_noData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        android:text=""
+        android:textColor="@color/grey"
+        android:textSize="@dimen/font_mid" />
+
+    <ListView
+        android:id="@+id/_lists"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top"
+        android:fadeScrollbars="true" />
+
+</FrameLayout>

@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|right"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="top|left"
+        android:background="#ff7e3e" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="50dp"
+            android:text="비밀번호찾기"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/_backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/transparent"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/top_icon" />
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|left" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical" >
+                
+                  <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="20dp" >
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="아이디"
+                        android:textColor="#323232"
+                        android:textSize="12dp" />
+
+                    <EditText
+                        android:id="@+id/_input0"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top|left"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/input_bg"
+                        android:ems="10"
+                        android:inputType="textUri"
+                        android:maxLines="1"
+                        android:padding="5dp"
+                        android:textColorLink="#000000"
+                        android:textSize="15dp" />
+                </LinearLayout>
+                
+                   <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="20dp" >
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="휴대폰"
+                        android:textColor="#323232"
+                        android:textSize="12dp" />
+
+                    <EditText
+                        android:id="@+id/_input1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top|left"
+                        android:layout_weight="1"
+                        android:background="@drawable/input_bg"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:padding="5dp"
+                        android:textColorLink="#000000"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/_findBtn"
+                    android:layout_width="75dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="top|right"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/btn_bg"
+                    android:text="확인"
+                    android:textColor="#323232"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

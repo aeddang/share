@@ -1,0 +1,378 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    tools:context="com.credit.korea.KoreaCredit.MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#e5e5e5">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="top|left"
+            android:background="#21356e">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:id="@+id/_logo"
+                android:src="@drawable/top_logo"
+                android:layout_gravity="top|left"
+                android:layout_marginLeft="10dp"
+                android:scaleType="fitCenter" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="top|left">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="credit"
+                    android:id="@+id/_btnCredit"
+                    android:layout_gravity="top|left|center_horizontal"
+                    android:background="@drawable/transparent"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="http://www.koreacreditcard.com"
+                    android:id="@+id/_btnLink"
+                    android:layout_gravity="top|left|center_horizontal"
+                    android:background="@drawable/transparent"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left|bottom"
+                android:layout_marginBottom="8dp"
+                android:gravity="bottom|right">
+
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="38dp"
+                    android:id="@+id/_btnMypage0"
+                    android:layout_gravity="left|bottom"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/mypage_btn_info_ac"
+                    android:layout_marginRight="15dp"
+                    android:gravity="bottom" />
+
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="38dp"
+                    android:id="@+id/_btnMypage1"
+                    android:layout_gravity="left|bottom"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/mypage_btn_card_ac"
+                    android:layout_marginRight="15dp"
+                    android:gravity="bottom" />
+
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="38dp"
+                    android:id="@+id/_btnMypage2"
+                    android:layout_gravity="left|bottom"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/mypage_btn_pt_ac"
+                    android:layout_marginRight="15dp"
+                    android:gravity="bottom" />
+
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="38dp"
+                    android:id="@+id/_btnMypage3"
+                    android:layout_gravity="left|bottom"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/mypage_btn_search_ac"
+                    android:layout_marginRight="15dp"
+                    android:gravity="bottom" />
+
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/_btnLogout"
+                    android:layout_gravity="left|bottom"
+                    android:background="@drawable/member_btn_logout_ac"
+                    android:textColor="#ffffff"
+                    android:layout_marginRight="15dp"
+                    android:gravity="bottom" />
+
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="32dp"
+                    android:id="@+id/_btnJoin"
+                    android:layout_gravity="left|bottom"
+                    android:background="@drawable/main_btn_join"
+                    android:textColor="#ffffff"
+                    android:layout_marginRight="15dp"
+                    android:gravity="bottom" />
+
+                <Button
+                    android:layout_width="39dp"
+                    android:layout_height="34dp"
+                    android:id="@+id/_btnFindID"
+                    android:layout_gravity="left|bottom"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/member_btn_findid_ac"
+                    android:layout_marginRight="15dp"
+                    android:gravity="bottom" />
+
+                <Button
+                    android:layout_width="46dp"
+                    android:layout_height="34dp"
+                    android:id="@+id/_btnFindPW"
+                    android:layout_gravity="left|bottom"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/member_btn_findpw_ac"
+                    android:layout_marginRight="15dp"
+                    android:gravity="bottom" />
+
+                <Button
+                    android:layout_width="23dp"
+                    android:layout_height="31dp"
+                    android:id="@+id/_btnLogin"
+                    android:layout_gravity="left|bottom"
+                    android:background="@drawable/main_btn_login"
+                    android:textColor="#ffffff"
+                    android:layout_marginRight="15dp"
+                    android:gravity="bottom" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="#22b4ed"></FrameLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView"
+            android:layout_weight="1"
+            android:scrollbars="none"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:id="@+id/_btnWhat"
+                        android:layout_height="fill_parent">
+
+                        <ImageView
+                            android:layout_width="78dp"
+                            android:layout_height="match_parent"
+
+                            android:src="@drawable/main_btn0_top"
+                             />
+
+                        <FrameLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="@drawable/main_btn_bg">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="15dp"
+
+                                android:src="@drawable/main_btn0_text"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="100dp" />
+                        </FrameLayout>
+                    </LinearLayout>
+
+                    <Button
+                        android:layout_width="85dp"
+                        android:layout_height="36dp"
+                        android:id="@+id/_btnInterest"
+                        android:layout_gravity="right|center_vertical"
+                        android:background="@drawable/main_btn0_btn"
+                        android:layout_marginRight="10dp" />
+
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:id="@+id/_btnSearch"
+                        android:layout_height="fill_parent">
+
+                        <ImageView
+                            android:layout_width="78dp"
+                            android:layout_height="match_parent"
+
+                            android:src="@drawable/main_btn1_top"
+                            />
+
+                        <FrameLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="@drawable/main_btn_bg">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="16dp"
+
+                                android:src="@drawable/main_btn1_text"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="100dp" />
+                        </FrameLayout>
+                    </LinearLayout>
+                    <Button
+                        android:layout_width="85dp"
+                        android:layout_height="36dp"
+                        android:id="@+id/_btnFind"
+                        android:layout_gravity="right|center_vertical"
+                        android:background="@drawable/main_btn1_btn"
+                        android:layout_marginRight="10dp" />
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:id="@+id/_btnRecommend"
+                        android:layout_height="fill_parent">
+
+                        <ImageView
+                            android:layout_width="78dp"
+                            android:layout_height="match_parent"
+
+                            android:src="@drawable/main_btn2_top"
+                            />
+
+                        <FrameLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="@drawable/main_btn_bg">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="16dp"
+
+                                android:src="@drawable/main_btn2_text"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="30dp" />
+                        </FrameLayout>
+                    </LinearLayout>
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:id="@+id/_btnBook"
+                        android:layout_height="fill_parent">
+
+                        <ImageView
+                            android:layout_width="78dp"
+                            android:layout_height="match_parent"
+
+                            android:src="@drawable/main_btn3_top"
+                            />
+
+                        <FrameLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="@drawable/main_btn_bg"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="37dp"
+
+                                android:src="@drawable/main_btn3_text"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="100dp" />
+                        </FrameLayout>
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="top|left"
+            android:weightSum="3">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="QNA"
+            android:id="@+id/_btnQnA"
+            android:layout_gravity="top|left|center_horizontal"
+            android:background="#21356e"
+            android:textColor="#ffffff"
+            android:src="@drawable/main_btn_bt0"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:padding="15dp" />
+          <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Event"
+            android:id="@+id/_btnEvent"
+            android:layout_gravity="top|left|center_horizontal"
+            android:background="#22b4ed"
+            android:textColor="#ffffff"
+            android:src="@drawable/main_btn_bt1"
+            android:layout_weight="1"
+              android:scaleType="fitCenter"
+              android:padding="15dp" />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Guide"
+            android:id="@+id/_btnGuide"
+            android:layout_gravity="top|left|center_horizontal"
+            android:background="#21356e"
+            android:textColor="#ffffff"
+            android:src="@drawable/main_btn_bt2"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:padding="15dp" />
+
+    </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
+

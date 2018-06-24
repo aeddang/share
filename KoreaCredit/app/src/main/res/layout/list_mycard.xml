@@ -1,0 +1,106 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|left"
+    tools:context="com.credit.korea.KoreaCredit.MainActivity"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:layout_marginRight="120dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/_textTitle"
+                    android:layout_gravity="left|center_vertical"
+                    android:textColor="#21356e"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/_textName"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#666"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/_textKind"
+                    android:layout_marginTop="2dp"
+                    android:textColor="#666"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/_textPeriod"
+                    android:layout_marginTop="2dp"
+                    android:textColor="#666"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/_textSms"
+                    android:layout_marginTop="2dp"
+                    android:textColor="#666"
+                    android:textSize="12dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|right">
+
+                <ImageView
+                    android:layout_width="115dp"
+                    android:layout_height="72dp"
+                    android:id="@+id/_imageCard"
+                    android:layout_gravity="top|right" />
+
+                <Button
+                    android:layout_width="115dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/_btnDelete"
+                    android:layout_gravity="top|left"
+                    android:background="@drawable/mycard_btn_delete"
+                    android:layout_marginTop="5dp" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="top|left"
+            android:background="#bbb"></FrameLayout>
+    </LinearLayout>
+</FrameLayout>
+

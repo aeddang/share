@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|left"
+    android:background="#ffffff"
+    android:clickable="false"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/_lists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/_listBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_margin="10dp"
+            android:background="@drawable/transparent" >
+
+            <TextView
+                android:id="@+id/_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:text="TextView"
+                android:textColor="#747474"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/_selectBtn"
+                android:layout_width="17dp"
+                android:layout_height="10dp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/sel_dr" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="top|left"
+            android:background="#eeeeee" >
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

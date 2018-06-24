@@ -1,0 +1,398 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    tools:context="com.credit.korea.KoreaCredit.MainActivity"
+    android:background="#e5e5e5">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:id="@+id/_scrollView"
+        android:layout_gravity="top|left">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|left"
+            android:background="#e5e5e5">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:background="#22b4ed">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="13dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/card_detail_title"
+                    android:scaleType="fitCenter"
+                     />
+
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/_btnBack"
+                    android:layout_gravity="center_vertical|right"
+                    android:background="@drawable/btn_back"
+                    android:layout_marginRight="10dp" />
+            </FrameLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|left"
+                android:layout_gravity="top|left"
+                android:layout_margin="10dp"
+                android:background="#ffffff"
+                android:padding="15dp">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="12dp"
+
+                    android:src="@drawable/card_detail_text0" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|left"
+                    android:layout_marginTop="15dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="top|left"
+                        android:layout_marginRight="10dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+
+                            android:layout_gravity="top|left"
+                            android:src="@drawable/card_detail_text1"
+                            android:scaleType="fitStart" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/_textKind"
+                            android:layout_gravity="top|left"
+                            android:layout_marginTop="2dp"
+                            android:textColor="#444"
+                            android:textSize="13dp" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+
+                            android:layout_gravity="top|left"
+                            android:src="@drawable/card_detail_text2"
+                            android:scaleType="fitStart"
+                            android:layout_marginTop="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/_textName"
+                            android:layout_gravity="top|left"
+                            android:layout_marginTop="2dp"
+                            android:textColor="#444"
+                            android:textSize="13dp" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+
+                            android:layout_gravity="top|left"
+                            android:src="@drawable/card_detail_text3"
+                            android:scaleType="fitStart"
+                            android:layout_marginTop="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/_textTitle"
+                            android:layout_gravity="top|left"
+                            android:layout_marginTop="2dp"
+                            android:textColor="#444"
+                            android:textSize="13dp" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+
+                            android:layout_gravity="top|left"
+                            android:src="@drawable/card_detail_text4"
+                            android:scaleType="fitStart"
+                            android:layout_marginTop="10dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/_textPricePerYear"
+                            android:layout_gravity="top|left"
+                            android:layout_marginTop="2dp"
+                            android:textColor="#444"
+                            android:textSize="13dp" />
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:layout_width="128dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="128dp"
+                            android:layout_height="83dp"
+
+                            android:layout_gravity="top|left"
+                            android:layout_marginTop="35dp"
+                            android:id="@+id/_imageCard" />
+
+                        <Button
+                            android:layout_width="60dp"
+                            android:layout_height="28dp"
+                            android:id="@+id/_btnSms"
+                            android:background="@drawable/card_search_btn_sms"
+                            android:layout_gravity="top|left" />
+
+                        <Button
+                            android:layout_width="60dp"
+                            android:layout_height="28dp"
+                            android:id="@+id/_btnCounsel"
+                            android:background="@drawable/card_search_btn_counsel"
+                            android:layout_gravity="top|right" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|left"
+                    android:layout_marginTop="10dp" >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:id="@+id/_btnMy"
+                        android:background="@drawable/sel_btn_bg2"
+                        android:layout_weight="1"
+                        android:layout_gravity="top|left"
+                        android:layout_marginRight="3dp"
+                        android:text="보유카드"
+                        android:textSize="15dp"
+                        android:textColor="#666" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:id="@+id/_btnIntrest"
+                        android:background="@drawable/sel_btn_bg2"
+                        android:layout_weight="1"
+                        android:layout_gravity="top|left"
+                        android:layout_marginLeft="3dp"
+                        android:text="관심카드"
+                        android:textColor="#666"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="top|left"
+                    android:layout_marginTop="10dp"
+                    android:background="#f9f9f9"
+                    android:padding="10dp"
+                    android:id="@+id/_introStack">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="12dp"
+
+                        android:src="@drawable/card_detail_text5"
+                        android:layout_marginBottom="5dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="top|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+
+                    android:background="#fff"
+                    android:src="@drawable/card_detail_text6"
+                    android:paddingTop="9dp"
+                    android:paddingBottom="9dp" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="top|left"
+                    android:layout_marginTop="1dp"
+                    android:padding="10dp"
+                    android:background="#fff"
+                    android:id="@+id/_addedStack"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="top|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+
+                    android:background="#fff"
+                    android:src="@drawable/card_detail_text7"
+                    android:paddingTop="9dp"
+                    android:paddingBottom="9dp" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="top|left"
+                    android:layout_marginTop="1dp"
+                    android:padding="10dp"
+                    android:background="#fff"
+                    android:id="@+id/_benefitAllStack" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="top|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+
+                    android:background="#fff"
+                    android:src="@drawable/card_detail_text9"
+                    android:paddingTop="9dp"
+                    android:paddingBottom="9dp" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="top|left"
+                    android:layout_marginTop="1dp"
+                    android:padding="10dp"
+                    android:background="#fff"
+                    android:id="@+id/_benefitStack" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|left"
+                    android:background="#fff">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:id="@+id/_btnMyBt"
+                        android:background="@drawable/sel_btn_bg2"
+                        android:layout_weight="1"
+                        android:layout_gravity="top|left"
+                        android:layout_marginRight="3dp"
+                        android:text="보유카드"
+                        android:textSize="15dp"
+                        android:textColor="#666"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:id="@+id/_btnIntrestBt"
+                        android:background="@drawable/sel_btn_bg2"
+                        android:layout_weight="1"
+                        android:layout_gravity="top|left"
+                        android:layout_marginLeft="3dp"
+                        android:text="관심카드"
+                        android:textColor="#666"
+                        android:textSize="15dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="top|left"
+                android:background="#fff"
+                android:layout_marginTop="15dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/_btnSmsBt"
+                    android:background="#22b4ed"
+                    android:layout_weight="1"
+                    android:layout_gravity="top|left"
+                    android:text="보유카드"
+                    android:textSize="15dp"
+                    android:textColor="#666"
+                    android:src="@drawable/card_detail_btn_text0"
+                    android:padding="16dp"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/_btnCounselBt"
+                    android:background="#21356E"
+                    android:layout_weight="1"
+                    android:layout_gravity="top|left"
+                    android:text="관심카드"
+                    android:textColor="#666"
+                    android:textSize="15dp"
+                    android:src="@drawable/card_detail_btn_text1"
+                    android:padding="15dp"
+                    android:scaleType="fitCenter" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
+
+
+
+
+
+

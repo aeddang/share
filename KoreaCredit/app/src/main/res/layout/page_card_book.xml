@@ -1,0 +1,103 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    tools:context="com.credit.korea.KoreaCredit.MainActivity"
+    android:background="#e5e5e5">
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="top|left"
+            android:background="#e5e5e5">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:background="#22b4ed">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="13dp"
+
+                    android:layout_gravity="center"
+                    android:src="@drawable/book_title"
+                    android:scaleType="fitCenter" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:background="#f9f9f9"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp">
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|left"
+                    android:src="@drawable/consume_title1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/_period"
+                        android:layout_gravity="top|left"
+                        android:layout_marginRight="90dp"
+                        android:textColor="#666666"
+                        android:textSize="13dp" />
+
+                    <Button
+                        android:layout_width="78dp"
+                        android:layout_height="28dp"
+                        android:id="@+id/_btnAdd"
+                        android:background="@drawable/book_btn_add"
+                        android:layout_gravity="center_vertical|right" />
+                </FrameLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="11dp"
+                    android:src="@drawable/consume_text7"
+                    android:layout_gravity="top|left"
+                    android:longClickable="true"
+                    android:scaleType="fitStart"
+                     />
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#cccccc"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="top|left"></FrameLayout>
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/_lists"
+                    android:fadeScrollbars="true"
+                    android:scrollbars="none"
+                    android:layout_gravity="top|left" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+</FrameLayout>
+
+
+
+
+
+

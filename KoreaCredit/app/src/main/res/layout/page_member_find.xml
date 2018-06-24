@@ -1,0 +1,234 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    tools:context="com.credit.korea.KoreaCredit.MainActivity"
+    android:background="#e5e5e5">
+
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        class="lib.view.RackableScrollView"
+        android:id="@+id/_scrollView"
+        android:layout_gravity="top|left">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|left"
+            android:background="#e5e5e5">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:background="#22b4ed">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="13dp"
+                    android:id="@+id/_textTitle"
+                    android:layout_gravity="center"
+                    android:src="@drawable/findid_title"
+                    android:scaleType="fitCenter" />
+            </FrameLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|left"
+                android:layout_gravity="top|left"
+                android:layout_margin="10dp"
+                android:background="#ffffff"
+                android:padding="20dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="12dp"
+                    android:id="@+id/_textSubTitle"
+                    android:src="@drawable/join_text_7"
+                    android:layout_gravity="top|left"
+                    android:longClickable="true"
+                    android:scaleType="fitStart"
+                    android:layout_marginTop="10dp" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="top|left"
+
+                    android:layout_marginTop="10dp">
+                    <Button
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:id="@+id/_checkSendSMS"
+                        android:background="@drawable/sel_check"
+                        android:layout_gravity="top|left" />
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/join_check_text1"
+                        android:layout_gravity="top|left"
+                        android:longClickable="true"
+                        android:scaleType="fitCenter"
+                        android:layout_margin="5dp" />
+
+                    <Button
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:id="@+id/_checkSendEMail"
+                        android:background="@drawable/sel_check"
+                        android:layout_gravity="top|left"
+                        android:layout_marginLeft="98dp" />
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/join_check_text0"
+                        android:layout_gravity="top|left"
+                        android:longClickable="true"
+                        android:scaleType="fitCenter"
+                        android:layout_margin="5dp" />
+
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="12dp"
+                    android:id="@+id/_textPhone"
+                    android:src="@drawable/join_text_3"
+                    android:layout_gravity="top|left"
+                    android:longClickable="true"
+                    android:scaleType="fitStart"
+                    android:layout_marginTop="10dp" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="top|left"
+                    android:id="@+id/_boxPhone"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/_inputPhone0"
+                        android:layout_gravity="top|left"
+                        android:inputType="phone"
+                        android:text="010"
+                        android:textSize="13dp"
+                        android:imeOptions="actionNext"
+                        android:background="@drawable/input_bg0" />
+                    <ImageView
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/join_icon_1"
+                        android:layout_gravity="top|left"
+                        android:longClickable="true"
+                        android:scaleType="fitCenter"
+                        android:layout_margin="5dp" />
+                    <EditText
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/_inputPhone1"
+                        android:layout_gravity="top|left"
+                        android:inputType="phone"
+                        android:imeOptions="actionNext"
+                        android:textSize="13dp"
+                        android:background="@drawable/input_bg0" />
+                    <ImageView
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/join_icon_1"
+                        android:layout_gravity="top|left"
+                        android:longClickable="true"
+                        android:scaleType="fitCenter"
+                        android:layout_margin="5dp" />
+                    <EditText
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/_inputPhone2"
+                        android:layout_gravity="top|left"
+                        android:inputType="phone"
+                        android:imeOptions="actionDone"
+                        android:textSize="13dp"
+                        android:background="@drawable/input_bg0" />
+
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="12dp"
+                    android:id="@+id/_textEmail"
+                    android:src="@drawable/join_text_4"
+                    android:layout_gravity="top|left"
+                    android:longClickable="true"
+                    android:scaleType="fitStart"
+                    android:layout_marginTop="10dp" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="top|left"
+                    android:id="@+id/_boxEmail"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:layout_width="135dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/_inputEmail0"
+                        android:layout_gravity="top|left"
+                        android:imeOptions="actionNext"
+                        android:inputType="textEmailAddress"
+                        android:textSize="13dp"
+                        android:background="@drawable/input_bg0" />
+                    <ImageView
+                        android:layout_width="8dp"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/join_icon_0"
+                        android:layout_gravity="top|left"
+                        android:longClickable="true"
+                        android:scaleType="fitCenter"
+                        android:layout_margin="5dp" />
+                    <EditText
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/_inputEmail1"
+                        android:layout_gravity="top|left"
+                        android:imeOptions="actionDone"
+                        android:inputType="textEmailAddress"
+                        android:textSize="13dp"
+                        android:background="@drawable/input_bg0" />
+
+                </LinearLayout>
+
+
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/_btnComplete"
+                    android:layout_gravity="top|left"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/btn_complete_txt"
+                    android:padding="13dp"
+                    android:background="@drawable/btn_bg0" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </view>
+
+
+</FrameLayout>
+
+
+
+
+
+

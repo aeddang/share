@@ -1,0 +1,97 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    tools:context="com.credit.korea.KoreaCredit.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/_dimed"
+        android:background="@drawable/transparent70"
+        android:clickable="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/box_bg0"
+        android:padding="20dp"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/_icon"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_delete" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/_title"
+            android:layout_gravity="top|left"
+            android:textColor="#444444"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/_subTitle"
+            android:layout_gravity="top|left"
+            android:textColor="#444444"
+            android:textSize="12dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="select"
+            android:id="@+id/_textSelect"
+            android:layout_gravity="top|left"
+            android:textColor="#21366f"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text="ok"
+                android:id="@+id/_btnOk"
+                android:textColor="#444444"
+                android:textSize="15dp"
+                android:background="@drawable/btn_bg2"
+                android:layout_gravity="top|left" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text="cancle"
+                android:id="@+id/_btnCancle"
+                android:textColor="#444444"
+                android:textSize="15dp"
+                android:background="@drawable/btn_bg3"
+                android:layout_gravity="top|left"
+                android:layout_marginLeft="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
+

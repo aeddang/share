@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ironraft.bitboy.MainActivity"
+    android:id="@+id/_body"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="top|left"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/bg_gd" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/area_bottom"
+        android:layout_marginTop="@dimen/area_header"
+        tools:context="com.ironraft.bitboy.MainActivity">
+
+
+        <ListView
+            android:id="@+id/_lists"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|top"
+            android:fadeScrollbars="true" />
+
+    </FrameLayout>
+
+</FrameLayout>

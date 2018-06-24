@@ -1,0 +1,268 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    tools:context="com.credit.korea.KoreaCredit.MainActivity"
+    android:background="#e5e5e5">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        android:id="@+id/_scrollView"
+        android:layout_gravity="top|left">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|left"
+            android:background="#e5e5e5">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:background="#22b4ed">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="13dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/consume_modify_title"
+                    android:scaleType="fitCenter"
+                    />
+
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/_btnBack"
+                    android:layout_gravity="center_vertical|right"
+                    android:background="@drawable/btn_back"
+                    android:layout_marginRight="10dp" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="top|left"
+                android:layout_margin="15dp"
+                android:background="#fff">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:text="New Text"
+                        android:id="@+id/_textTitle"
+                        android:layout_gravity="left|center_vertical"
+                        android:textColor="#444444"
+                        android:textSize="13dp"
+                        android:padding="5dp"
+                        android:background="#eeeeee"
+                        android:gravity="center" />
+
+                    <FrameLayout
+                        android:layout_width="1dp"
+                        android:layout_height="fill_parent"
+                        android:background="#cccccc" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp" >
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1">
+
+                                <EditText
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+                                    android:inputType="number"
+                                    android:ems="10"
+                                    android:id="@+id/_inputPoint"
+                                    android:layout_gravity="left|center_vertical"
+                                    android:layout_weight="1"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="@drawable/input_bg0"
+                                    android:imeOptions="actionDone"
+                                    android:textSize="13dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="만원/월"
+                                    android:id="@+id/_inputPointUnit"
+                                    android:layout_gravity="left|center_vertical"
+                                    android:textColor="#999"
+                                    android:textSize="10dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_marginLeft="2dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:id="@+id/_inputPointSubBox">
+
+                                <EditText
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+                                    android:inputType="number"
+                                    android:ems="10"
+                                    android:id="@+id/_inputPointSub"
+                                    android:layout_gravity="left|center_vertical"
+                                    android:layout_weight="1"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="@drawable/input_bg0"
+                                    android:imeOptions="actionDone"
+                                    android:textSize="13dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="만원/월"
+                                    android:id="@+id/_inputPointSubUnit"
+                                    android:layout_gravity="left|center_vertical"
+                                    android:textColor="#999"
+                                    android:textSize="10dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_marginLeft="2dp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="1dp"
+                            android:background="#cccccc" />
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp" >
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="0.0"
+                                    android:id="@+id/_textUsed"
+                                    android:textColor="#999999"
+                                    android:textSize="13dp"
+                                    android:layout_gravity="left|center_vertical"
+                                    android:layout_marginLeft="10dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="만원/월"
+                                    android:id="@+id/_textUsedUnit"
+                                    android:layout_gravity="left|center_vertical"
+                                    android:textColor="#999"
+                                    android:textSize="10dp"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginRight="5dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:id="@+id/_textUsedSubBox">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="0.0"
+                                    android:id="@+id/_textUsedSub"
+                                    android:textColor="#999999"
+                                    android:textSize="13dp"
+                                    android:layout_gravity="left|center_vertical"
+                                    android:layout_marginLeft="10dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="만원/월"
+                                    android:id="@+id/_textUsedSubUnit"
+                                    android:layout_gravity="left|center_vertical"
+                                    android:textColor="#999"
+                                    android:textSize="10dp"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginRight="5dp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="1dp"
+                            android:background="#cccccc" />
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:id="@+id/_listStack"></LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#cccccc" />
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text=""
+                android:id="@+id/_btnComplete"
+                android:layout_gravity="top|left"
+                android:src="@drawable/btn_complete_txt"
+                android:padding="13dp"
+                android:background="@drawable/btn_bg0"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:scaleType="fitCenter" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
+
+
+
+
+
+

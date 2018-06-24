@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    tools:context="com.credit.korea.KoreaCredit.MainActivity"
+    android:background="#e5e5e5">
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="top|left"
+            android:background="#e5e5e5">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:background="#22b4ed">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="13dp"
+
+                    android:layout_gravity="center"
+                    android:src="@drawable/card_search_title"
+                    android:scaleType="fitCenter" />
+            </FrameLayout>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/_lists"
+                android:fadeScrollbars="true"
+                android:scrollbars="none"
+                android:layout_gravity="top|left"
+                android:background="#fff"
+                android:layout_weight="1"
+                android:layout_margin="10dp" />
+
+        </LinearLayout>
+
+
+
+</FrameLayout>
+
+
+
+
+
+

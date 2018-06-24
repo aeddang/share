@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:state_selected="true" android:drawable="@drawable/switch2_on"/>
+   <item android:drawable="@drawable/switch2_off"/>
+</selector>
+<!-- From: file:/Users/imbc-design01/work/DeliveryCommerce/app/src/main/res/drawable/sel_switch2.xml -->

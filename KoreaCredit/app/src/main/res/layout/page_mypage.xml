@@ -1,0 +1,136 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    tools:context="com.credit.korea.KoreaCredit.MainActivity">
+
+
+    <FrameLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="top|left"
+        android:background="#21356e">
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/_btnHome"
+            android:layout_gravity="left|center_vertical"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/top_logo" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|right"
+
+            android:layout_marginRight="20dp">
+            <FrameLayout
+                android:layout_width="30dp"
+                android:layout_height="match_parent">
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="38dp"
+                    android:id="@+id/_btnInfo"
+                    android:layout_gravity="left|center_vertical"
+                    android:textColor="#ffffff"
+
+                    android:background="@drawable/sel_mypage_btn_info" />
+
+                <FrameLayout
+                    android:layout_width="30dp"
+                    android:layout_height="4dp"
+                    android:id="@+id/_btnInfoPoint"
+                    android:layout_gravity="left|bottom"
+                    android:background="#22b4ed"></FrameLayout>
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="top|left"
+                android:layout_marginLeft="20dp">
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="38dp"
+                    android:id="@+id/_btnCard"
+                    android:layout_gravity="left|center_vertical"
+                    android:textColor="#ffffff"
+
+                    android:background="@drawable/sel_mypage_btn_card" />
+                <FrameLayout
+                    android:layout_width="30dp"
+                    android:layout_height="4dp"
+                    android:id="@+id/_btnCardPoint"
+                    android:layout_gravity="left|bottom"
+                    android:background="#22b4ed"></FrameLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="top|left"
+                android:layout_marginLeft="20dp">
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="38dp"
+                    android:id="@+id/_btnPaturn"
+                    android:layout_gravity="left|center_vertical"
+                    android:textColor="#ffffff"
+
+                    android:background="@drawable/sel_mypage_btn_pt" />
+                <FrameLayout
+                    android:layout_width="30dp"
+                    android:layout_height="4dp"
+                    android:id="@+id/_btnPaturnPoint"
+                    android:layout_gravity="left|bottom"
+                    android:background="#22b4ed"></FrameLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="top|left"
+                android:layout_marginLeft="20dp">
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="38dp"
+                    android:id="@+id/_btnSearch"
+                    android:layout_gravity="left|center_vertical"
+                    android:textColor="#ffffff"
+
+                    android:background="@drawable/sel_mypage_btn_search" />
+                <FrameLayout
+                    android:layout_width="30dp"
+                    android:layout_height="4dp"
+                    android:id="@+id/_btnSearchPoint"
+                    android:layout_gravity="left|bottom"
+                    android:background="#22b4ed"></FrameLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="lib.view.SlideBox"
+        android:id="@+id/_slideBox"
+        android:layout_gravity="top|left|center"
+        android:layout_marginTop="60dp" />
+
+
+</FrameLayout>
+
+
+
+
+

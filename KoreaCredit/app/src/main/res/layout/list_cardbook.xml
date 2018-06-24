@@ -1,0 +1,168 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|left"
+    tools:context="com.credit.korea.KoreaCredit.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:text="New Text"
+                android:id="@+id/_textType"
+                android:layout_gravity="left|center_vertical"
+                android:textColor="#444444"
+                android:textSize="13dp"
+                android:padding="5dp"
+                android:background="#eeeeee"
+                android:gravity="center" />
+
+            <FrameLayout
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#cccccc"></FrameLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp">
+
+                    <ImageView
+                        android:layout_width="46dp"
+                        android:layout_height="11dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/consume_text9"
+                        android:layout_gravity="left|center_vertical" />
+
+                    <FrameLayout
+                        android:layout_width="1dp"
+                        android:layout_height="fill_parent"
+                        android:background="#cccccc" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="top|left"
+                        android:id="@+id/_barBox">
+
+                        <FrameLayout
+                            android:layout_width="40dp"
+                            android:layout_height="25dp"
+                            android:background="#cccccc"
+                            android:layout_gravity="left|center_vertical"
+                            android:id="@+id/_consumeBar" />
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="0.0"
+                            android:id="@+id/_textConsume"
+                            android:textColor="#999999"
+                            android:textSize="11dp"
+                            android:layout_gravity="left|center_vertical"
+                            android:layout_marginLeft="5dp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#cccccc" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp" >
+
+                    <ImageView
+                        android:layout_width="46dp"
+                        android:layout_height="11dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/consume_text8"
+                        android:layout_gravity="left|center_vertical" />
+
+                    <FrameLayout
+                        android:layout_width="1dp"
+                        android:layout_height="fill_parent"
+                        android:background="#cccccc" />
+
+                    <FrameLayout
+                        android:layout_width="40dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="left|center_vertical"
+                        android:background="#22b4ed"
+                        android:id="@+id/_usedBar"
+                        android:clickable="true" />
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:text="0.0"
+                        android:id="@+id/_textUsed"
+                        android:textColor="#999999"
+                        android:textSize="11dp"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_marginLeft="5dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#cccccc" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="80dp"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="New Text"
+                    android:id="@+id/_textPoint"
+                    android:layout_gravity="left|center_vertical"
+                    android:textColor="#444444"
+                    android:textSize="13dp"
+                    android:padding="5dp"
+                    android:gravity="center" />
+                <Button
+                    android:layout_width="62dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/_btnModify"
+                    android:background="@drawable/book_btn_desc"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_marginTop="7dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#cccccc"></FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
+

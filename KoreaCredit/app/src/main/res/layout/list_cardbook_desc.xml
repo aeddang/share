@@ -1,0 +1,106 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|left"
+    tools:context="com.credit.korea.KoreaCredit.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:text="New Text"
+                android:id="@+id/_textDate"
+                android:layout_gravity="left|center_vertical"
+                android:textColor="#444444"
+                android:textSize="13dp"
+                android:padding="5dp"
+                android:background="#eeeeee"
+                android:gravity="center" />
+
+            <FrameLayout
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#cccccc"></FrameLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:text="New Text"
+                    android:id="@+id/_textPrice"
+                    android:layout_gravity="left|center_vertical"
+                    android:textColor="#777777"
+                    android:textSize="13dp"
+                    android:gravity="left|center_vertical"
+                    android:padding="5dp" />
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#cccccc" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:text="New Text"
+                    android:id="@+id/_textTitle"
+                    android:layout_gravity="left|center_vertical"
+                    android:textColor="#777777"
+                    android:textSize="13dp"
+                    android:gravity="left|center_vertical"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#cccccc" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="80dp"
+                android:layout_height="fill_parent" >
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="28dp"
+                    android:id="@+id/_btnModify"
+                    android:background="@drawable/consume_btn0"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_marginTop="7dp" />
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="28dp"
+                    android:id="@+id/_btnDelete"
+                    android:background="@drawable/consume_btn2"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_marginTop="10dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#cccccc"></FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
+

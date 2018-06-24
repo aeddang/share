@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|left"
+    tools:context="com.credit.korea.KoreaCredit.MainActivity"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <FrameLayout
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#bbb"></FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/_textTitle"
+            android:layout_gravity="top|left"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textIsSelectable="false"
+            android:textSize="12dp"
+            android:textColor="#666" />
+
+        <FrameLayout
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#bbb" />
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="2015-02-03"
+            android:id="@+id/_textDate"
+            android:layout_gravity="top|left"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textColor="#666"
+            android:textSize="12dp" />
+
+        <FrameLayout
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#bbb" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="left|bottom"
+        android:background="#bbb"
+        android:clickable="true"></FrameLayout>
+</FrameLayout>
+

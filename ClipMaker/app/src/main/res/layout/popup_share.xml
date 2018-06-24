@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    tools:context="com.aeddang.clipmaker.MainActivity"
+    android:background="#000000">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kakao"
+            android:id="@+id/_kakaoBtn" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="google driver"
+            android:id="@+id/_driveBtn" />
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/_backBtn"
+        android:layout_gravity="left|bottom"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg_blue"
+        android:src="@drawable/btn_complete"
+        android:scaleType="centerInside"
+        android:padding="20dp" />
+
+
+</FrameLayout>
+

@@ -1,0 +1,113 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|left"
+    tools:context="com.credit.korea.KoreaCredit.MainActivity"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#cccccc"
+        android:padding="1dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#ffffff">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/_textTitle"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+
+                <FrameLayout
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:background="#cccccc" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="top|left"
+                    android:id="@+id/_barBox">
+
+                    <FrameLayout
+                        android:layout_width="40dp"
+                        android:layout_height="25dp"
+                        android:background="#cccccc"
+                        android:layout_gravity="left|center_vertical"
+                        android:id="@+id/_consumeBar" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="0.0"
+                        android:id="@+id/_textConsume"
+                        android:textColor="#999999"
+                        android:textSize="11dp"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_marginLeft="5dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#cccccc" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="top|left"
+                android:background="#f6f5f5"
+                android:gravity="right">
+
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/_btn0"
+                    android:background="@drawable/sel_btn_bg2"
+                    android:layout_gravity="center_vertical|right"
+                    android:text="관심카드"
+                    android:textColor="#666"
+                    android:textSize="12dp" />
+
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/_btn1"
+                    android:background="@drawable/sel_btn_bg2"
+                    android:layout_gravity="center_vertical|right"
+                    android:text="보유카드"
+                    android:textSize="12dp"
+                    android:textColor="#666"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
+

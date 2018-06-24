@@ -1,0 +1,64 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    tools:context="com.credit.korea.KoreaCredit.MainActivity"
+    android:background="#666666">
+
+    <view
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        class="lib.core.ScreenObserver"
+        android:id="@+id/view"
+        android:layout_gravity="center_horizontal|top" />
+
+    <FrameLayout
+        android:id="@+id/_viewer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp" >
+
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/_viewerDimed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/transparent70" />
+
+
+
+    <ImageView
+        android:id="@+id/_dimed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|left"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/transparent70" />
+
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/_loadingBar"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:id="@+id/_intro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e8e8e8"
+        android:scaleType="fitXY"
+        android:src="@drawable/intro" />
+
+</FrameLayout>
+

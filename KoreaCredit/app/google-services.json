@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_id": "cardcherry-1191",
+    "project_number": "94647204366",
+    "name": "CardCherry"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94647204366:android:27d689d63f1b7a06",
+        "client_id": "android:com.google.samples.quickstart.signin",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.google.samples.quickstart.signin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94647204366:android:d165c30731f83cf8",
+        "client_id": "android:com.credit.korea.KoreaCredit",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.credit.korea.KoreaCredit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94647204366-uci29ijn0euotitsfkm5vkagad6fssv3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.credit.korea.KoreaCredit",
+            "certificate_hash": "27362E5FE7848A0F543AD38961464B10CBFA87DE"
+          }
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

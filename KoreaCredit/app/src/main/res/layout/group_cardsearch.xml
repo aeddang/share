@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|left"
+    tools:context="com.credit.korea.KoreaCredit.MainActivity"
+    android:orientation="vertical"
+    android:gravity="top|left"
+    android:background="#e5e5e5">
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#f9f9f9"
+        android:layout_gravity="top|left">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/card_search_text0"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="15dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#fff"
+        android:layout_marginTop="1dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="13dp"
+
+            android:layout_gravity="left|center_vertical"
+            android:scaleType="fitStart"
+            android:src="@drawable/card_search_text1"
+            android:layout_marginLeft="15dp" />
+
+        <Button
+            android:layout_width="98dp"
+            android:layout_height="30dp"
+            android:id="@+id/_btnSearch"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/card_search_btn_search" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#f9f9f9"
+        android:id="@+id/_searchStack"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="1dp"></LinearLayout>
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#fff"
+        android:layout_marginTop="1dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="13dp"
+
+            android:layout_gravity="left|center_vertical"
+            android:scaleType="fitStart"
+            android:src="@drawable/card_search_text2"
+            android:layout_marginLeft="15dp" />
+
+        <Button
+            android:layout_width="98dp"
+            android:layout_height="30dp"
+            android:id="@+id/_btnPaturn"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/card_search_btn_paturn" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/_paturnStack"
+        android:background="#f9f9f9"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="1dp"
+        android:baselineAligned="false"></LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="1dp"
+        android:background="#fff"
+        android:layout_marginBottom="5dp">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=""
+            android:id="@+id/_btnComplete"
+            android:layout_gravity="top|left"
+            android:src="@drawable/btn_search_txt"
+            android:padding="13dp"
+            android:background="@drawable/btn_bg0"
+            android:layout_margin="15dp"
+            android:scaleType="fitCenter" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#f9f9f9"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="1dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:id="@+id/imageView10"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/text_info_search_card" />
+    </FrameLayout>
+
+</LinearLayout>
+

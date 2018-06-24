@@ -1,0 +1,162 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:layout_gravity="top|left"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:background="@color/white">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+        <FrameLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:layout_width="1dp"
+                android:layout_height="2dp"
+                android:layout_gravity="bottom|left|center_vertical"
+                android:background="@color/white">
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/_view0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left|center_vertical"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="00:00:00"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_tiny" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <FrameLayout
+                android:layout_width="1dp"
+                android:layout_height="2dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:background="@color/white">
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/_view1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="00:00:00"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_tiny" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <FrameLayout
+                android:layout_width="1dp"
+                android:layout_height="2dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:background="@color/white">
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/_view2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="00:00:00"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_tiny" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <FrameLayout
+                android:layout_width="1dp"
+                android:layout_height="2dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:background="@color/white">
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/_view3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="00:00:00"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_tiny" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:layout_width="1dp"
+                android:layout_height="2dp"
+                android:layout_gravity="bottom|right"
+                android:background="@color/white">
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/_view4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="00:00:00"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_tiny" />
+        </FrameLayout>
+    </LinearLayout>
+
+</FrameLayout>
+

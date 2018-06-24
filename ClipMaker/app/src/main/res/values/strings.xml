@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">giFun</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_no">CANCEL</string>
+    <string name="msg_app_out">exit?</string>
+
+    <string name="msg_record_complete">Recorded complete. Go to view page?</string>
+
+
+    <string name="msg_share_no_app">You need to install the app to send this.</string>
+
+
+    <string name="msg_googleapi_unable">You need to check google api</string>
+
+
+    <string name="msg_save_complete">saved complete.</string>
+
+    <string name="msg_no_share_data">share data error!</string>
+
+    <string name="msg_no_data">no data.</string>
+
+    <string name="msg_network_err">check network. retry.</string>
+
+</resources>

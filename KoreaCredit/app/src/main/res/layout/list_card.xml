@@ -1,0 +1,115 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|left"
+    tools:context="com.credit.korea.KoreaCredit.MainActivity"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:layout_marginRight="120dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/_textTitle"
+                    android:layout_gravity="left|center_vertical"
+                    android:textColor="#21356e"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/_textName"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12dp"
+                    android:textColor="#666" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/_textKind"
+                    android:layout_marginTop="2dp"
+                    android:textSize="12dp"
+                    android:textColor="#666" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|right">
+
+                <ImageView
+                    android:layout_width="115dp"
+                    android:layout_height="72dp"
+                    android:id="@+id/_imageCard"
+                    android:layout_gravity="top|right" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/_btnAdd"
+                android:background="@drawable/btn_bg2"
+                android:src="@drawable/mycard_btn_add_txt"
+                android:scaleType="fitCenter"
+                android:padding="15dp"
+                android:layout_weight="1"
+                android:layout_gravity="top|left"
+                android:layout_marginRight="3dp" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/_btnDelete"
+                android:background="@drawable/btn_bg2"
+                android:src="@drawable/mycard_btn_delete_txt"
+                android:scaleType="fitCenter"
+                android:padding="15dp"
+                android:layout_weight="1"
+                android:layout_gravity="top|left"
+                android:layout_marginLeft="3dp" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="top|left"
+            android:background="#bbb"
+            android:layout_marginTop="10dp"></FrameLayout>
+    </LinearLayout>
+</FrameLayout>
+

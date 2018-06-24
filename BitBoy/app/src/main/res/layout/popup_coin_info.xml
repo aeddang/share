@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ironraft.bitboy.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/transparent70" />
+
+    <FrameLayout
+        android:id="@+id/_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|left">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_mid"
+            android:background="@drawable/bit_list_bg">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_big">
+
+                <TextView
+                    android:id="@+id/_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_mid"
+                    android:includeFontPadding="false"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/font_big" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="@dimen/margin_mid"
+                    android:background="@drawable/bg_gd_tiny">
+
+                    <FrameLayout
+                        android:id="@+id/_graphArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/margin_mid">
+
+                    </FrameLayout>
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/margin_mid"
+                    android:layout_weight="1"
+                    android:includeFontPadding="false"
+                    android:text="TextView"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/font_mid" />
+
+                <FrameLayout
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="bottom|center_horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/btn_close" />
+
+                    <Button
+                        android:id="@+id/_btnClose"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right|top"
+                        android:background="@drawable/btn_transparent" />
+                </FrameLayout>
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+
+</FrameLayout>

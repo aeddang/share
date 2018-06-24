@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_body"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_gravity="top|left"
+    tools:context="com.credit.korea.KoreaCredit.MainActivity"
+    android:background="#ffffff">
+
+    <Button
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:id="@+id/_check"
+        android:background="@drawable/sel_check"
+        android:layout_gravity="left|center_vertical" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/_textTitle"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="25dp"
+        android:textSize="13dp"
+        android:textColor="#666666"
+        android:layout_marginRight="5dp" />
+</FrameLayout>
+

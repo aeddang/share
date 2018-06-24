@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1071387812637",
+    "firebase_url": "https://bitboy-7d61a.firebaseio.com",
+    "project_id": "bitboy-7d61a",
+    "storage_bucket": "bitboy-7d61a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071387812637:android:159c4a230dac8347",
+        "android_client_info": {
+          "package_name": "com.ironraft.bitboy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071387812637-ai1q2as80tqfek2hcq2csu4865cvks69.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ironraft.bitboy",
+            "certificate_hash": "77c7914e73d1229a7858e51de79f28a2013cba91"
+          }
+        },
+        {
+          "client_id": "1071387812637-hr64kb2pqif4n1tciona2pk0prckm58m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa3DBkXg1n5HopSQGQq6UbRpX9G1Z12yY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071387812637-hr64kb2pqif4n1tciona2pk0prckm58m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
