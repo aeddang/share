@@ -13,7 +13,6 @@ import com.ironraft.bitboy.model.TopicManager;
 public class LanguageFactory {
 
 
-
     private static LanguageFactory instence;
     private final String LANG_KEY="LANG_KEY";
 

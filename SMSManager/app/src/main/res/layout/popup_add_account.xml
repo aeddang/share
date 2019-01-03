@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/transparent70" />
+
+    <FrameLayout
+        android:id="@+id/_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+        <Button
+            android:id="@+id/_btnConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:background="#6F94F8"
+            android:text="추가"
+            android:textColor="#fff"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/_btnBack"
+            android:layout_width="26dp"
+            android:layout_height="16dp"
+            android:layout_margin="30dp"
+            android:background="@drawable/arrowleft" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="계좌번호"
+                android:textColor="#6E7F8D"
+                android:textSize="12dp" />
+
+            <EditText
+                android:id="@+id/_inputAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="- 없이입력"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                android:textColor="#141A22"
+                android:textSize="18dp"
+                android:theme="@style/MyEditTextTheme" />
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

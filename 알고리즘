@@ -1,0 +1,25 @@
+#include <vector>
+
+using namespace std;
+
+// 전역 변수를 정의할 경우 함수 내에 초기화 코드를 꼭 작성해주세요.
+int solution(int n, int m, vector<vector<int>> timetable) {
+    int answer = 0;
+    int len = 0;
+    
+    vector<vector<int>> ctable = new vector<vector<int>>;
+    for(int i=0;i<m;++i)
+    {
+        t = timetable[i].t1;
+        for(int x=ctable.lengt-1;x>=0;--x) if(t>ctable[x].t2) ctable.slice(x,1);
+        ctable.push(timetable[i]);
+        int clen = ctable.length;
+        if(clen>len) len = clen;
+    }
+    float x = n*sin(n/len*Math.PI);
+    float y = n*cos(n/len*Math.PI);
+    int dX = Math.round(x);
+    int dY = Math.round(y);
+    float d = Math.sqrt(dx*dx + dy*dy);
+    return d;
+}

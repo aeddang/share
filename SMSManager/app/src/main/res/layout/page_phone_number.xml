@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/_btnConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:background="#6F94F8"
+        android:text="확인"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="전화번호"
+            android:textColor="#6E7F8D"
+            android:textSize="12dp" />
+
+        <EditText
+            android:id="@+id/_inputPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="- 없이입력"
+            android:imeOptions="actionDone"
+            android:inputType="phone"
+            android:textColor="#141A22"
+            android:textSize="18dp"
+            android:theme="@style/MyEditTextTheme" />
+
+    </LinearLayout>
+
+</FrameLayout>
